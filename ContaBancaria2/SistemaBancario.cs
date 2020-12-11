@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ContaBancaria2
 {
-    class ContaBancaria2
+    class SistemaBancario
     {
         public static void CriarConta()
         {
@@ -68,7 +68,7 @@ namespace ContaBancaria2
             }
             else if (valor > conta.LimiteDeSaque)
             {
-                Console.WriteLine($"\n>Erro: Valor excedeu o limite de saque! (Seu limite: {conta.LimiteDeSaque})");
+                Console.WriteLine($"\n> Erro: Valor excedeu o limite de saque! (Limite Saque: {conta.LimiteDeSaque.ToString("F2")})");
             }
             else
             {
