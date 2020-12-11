@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ContaBancaria2
 {
-    class SistemaBanco
+    class ContaBancaria2
     {
         public static void CriarConta()
         {
