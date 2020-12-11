@@ -10,7 +10,6 @@ namespace ContaBancaria2
             CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
             SistemaBanco.CriarConta();
-           
 
         }
         
